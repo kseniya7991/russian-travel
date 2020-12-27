@@ -1,0 +1,12 @@
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 48px 56px 48px;
+
+    /*временно для отображения */
+    border:1px solid red;
+}
