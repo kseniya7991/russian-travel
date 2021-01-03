@@ -1,6 +1,8 @@
 .header__lang-link {
     display: inline-block;
     padding-right: 18px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .header__lang-link:last-child {

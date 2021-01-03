@@ -1,0 +1,8 @@
+.menu__links {
+  display: inline;
+  padding-right: 18px;
+}
+
+.menu__links:last-child {
+  padding-right: 0;
+}

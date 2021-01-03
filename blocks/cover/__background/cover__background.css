@@ -6,8 +6,10 @@
   max-height: 100%;
   z-index: -1;
   opacity: calc(1 - 0.3);
+  transition: .4s;
 }
 
 .cover:hover .cover__background {
   opacity: calc(1 - 0.7);
+  transition: .4s;
 }
