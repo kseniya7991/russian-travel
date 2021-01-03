@@ -1,5 +1,5 @@
 .place {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     padding-bottom: 80px;
     margin: 0;
@@ -12,3 +12,10 @@
 .place:last-child {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place{
+      grid-column-gap: 32px;
+      grid-template-columns: 440px 456px;
+    }
+  }

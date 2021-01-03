@@ -1,6 +1,12 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  max-width: 984px;
+  min-height: 615px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 0 0 8px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+      max-width: 928px;
+  }
 }

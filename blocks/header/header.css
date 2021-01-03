@@ -1,5 +1,6 @@
 .header {
-    max-width: 1184px;
+    /*max-width: 1184px;*/
+    max-width: calc(100vw - 48px * 2);
     max-height: 52px;
     position: relative;
     display: flex;
@@ -7,4 +8,10 @@
     align-items: center;
     margin: 26px 48px 56px 48px;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
 }
