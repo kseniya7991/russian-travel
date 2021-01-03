@@ -6,12 +6,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 26px 48px 56px 48px;
+    margin: 28px 48px 56px 48px;
 
 }
 
 @media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        margin: 28px 24px 48px 24px;
     }
 }
