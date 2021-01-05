@@ -1,6 +1,6 @@
 .intro {
     max-width: 690px;
-    max-height: 429px;
+    min-height: 429px;
     margin-left: 148px;
     margin-bottom: 92px;
     display: flex;
@@ -19,5 +19,12 @@
     max-width: 720px;
     margin: 0 auto;
     margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin-bottom: 64px;
   }
 }

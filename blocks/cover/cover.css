@@ -23,3 +23,11 @@
       margin-bottom: 88px;
     }
 }
+
+
+@media screen and (max-width: 320px) {
+  .cover{
+    min-height: 200px;
+    margin-bottom: 64px;
+  }
+}
