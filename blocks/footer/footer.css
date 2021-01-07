@@ -22,9 +22,16 @@
   }
 }
 
-/*начат футер */
+
 @media screen and (max-width: 320px) {
   .footer{
-    max-width: 720px;
+    flex-direction: column;
+    margin: 0 0 24px 16px;
+    min-width: 186px;
+    min-height: 310px;
+    padding: 0;
+    max-height: 100%;
+
+    align-items: flex-start;
   }
 }
