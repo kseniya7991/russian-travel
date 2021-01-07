@@ -1,6 +1,6 @@
 .lead {
     max-width: 984px;
-    min-height: 1005px;
+    /*min-height: 1005px;*/
     position: relative;
     margin: 0 148px 92px 148px;
     display: flex;
@@ -12,7 +12,7 @@
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        min-height: 962px;
+        /*min-height: 962px;*/
         margin: 0 48px 92px 48px;
     }
 }
@@ -22,7 +22,7 @@
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 100vw;
-        min-height: 862px;
+       /* min-height: 862px;*/
         margin: 0 0 88px 0;
     }
 }
@@ -31,7 +31,16 @@
 
 @media screen and (max-width: 320px) {
     .lead {
-        min-height: 406px;
+       /* min-height: 406px;*/
         margin-bottom: 64px;
+    }
+}
+
+/*elastic layout*/
+@media screen and (min-width: 1281px) {
+    .lead {
+        margin: 0 auto;
+        max-width: 80vw;
+        margin-bottom: 92px;
     }
 }

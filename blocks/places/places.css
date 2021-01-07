@@ -29,3 +29,10 @@
       margin-bottom: 66px;
   }
 }
+
+/*elastic layout*/
+@media screen and (min-width: 1281px) {
+  .places{
+    max-width: 80vw;
+  }
+}

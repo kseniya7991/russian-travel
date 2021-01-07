@@ -15,3 +15,10 @@
     margin-left: 24px;  
   }
 }
+
+/*elastic layout*/
+@media screen and (min-width: 1281px) {
+  .lead__caption{
+    font-size: .7vw;
+  }
+}

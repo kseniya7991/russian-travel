@@ -1,6 +1,6 @@
 .intro__lists {
   max-width: 690px;
-  max-height: 90px;
+  min-height: 90px;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -15,4 +15,13 @@
   .intro__lists{
     font-size: 12px;    
   }
+}
+
+/*elastic layout*/
+@media screen and (min-width: 1281px) {
+  .intro__lists{
+     font-size: .9vw;
+     max-width: 60vw;
+     min-height: auto;
+    }
 }
