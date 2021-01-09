@@ -4,7 +4,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
-    width: 100%;
+    max-width: 100%;
     margin: 0;
     grid-row: 2/4;
   }
@@ -24,5 +24,20 @@
       margin-right: 16px;
      }
   }
+
+  /*elastic layout*/
+@media screen and (min-width: 1281px) {
+  .place__paragraphs{
+    font-size: 1.3vw;
+    line-height: 163%;
+    }
+}
   
+@media screen and (min-width: 321px) and (max-width: 1024px) {
+  .place__paragraphs{
+    font-size: 2vw;
+    line-height: 163%;
+    }
+}
+
   

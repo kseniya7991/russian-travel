@@ -7,3 +7,8 @@
   padding-bottom: 0; 
 } 
 
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__paragraph{
+    padding-bottom: 5%;
+    }
+}

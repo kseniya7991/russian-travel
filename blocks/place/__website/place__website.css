@@ -13,3 +13,16 @@
     margin-left: 16px;
   }
 }
+
+ /*elastic layout*/
+@media screen and (min-width: 1281px) {
+  .place__website {
+    max-height: 100%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__website{
+    max-height: 100%;
+  }
+}

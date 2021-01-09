@@ -1,6 +1,7 @@
 .menu__links {
   display: inline;
   padding-right: 18px;
+
 }
 
 .menu__links:last-child {
@@ -18,3 +19,9 @@
 
 }
 
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .menu__links {
+    padding-right: 1vw;
+    }
+}

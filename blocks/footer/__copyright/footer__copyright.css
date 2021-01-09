@@ -16,3 +16,19 @@ text-align: right;
         text-align: left;
     }
   }
+
+
+    /*elastic layout*/
+@media screen and (min-width: 1281px) {
+    .footer__copyright {
+        font-size: .8vw;
+        line-height: 100%;
+      }
+  }
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .footer__copyright  {
+        font-size: 1.5vw;
+        line-height: 100%;
+      }
+}
