@@ -30,7 +30,7 @@
 
 /*elastic layout*/
 
-@media screen and (min-width: 321px) and (max-width: 1024px) {
+@media screen and (min-width: 321px) and (max-width: 1023px) {
   .place__title{
     font-size: 7vw;
     line-height: 100%;

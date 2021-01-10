@@ -16,7 +16,7 @@
 }
 
 /*elastic layout*/
-@media screen and (max-width: 600px) and (min-width: 320px) {
+@media screen and (max-width: 600px) and (min-width: 321px) {
   .intro__title{
     font-size: 9vw;
     line-height: 115%;
