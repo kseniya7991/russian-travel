@@ -3,12 +3,15 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter';
-    font-weight: normal;
+    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
     padding-bottom: 5px;
+    /* добавлены новые свойства, блок флексовый*/
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 320px) {
