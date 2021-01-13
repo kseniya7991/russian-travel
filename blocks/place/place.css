@@ -7,7 +7,6 @@
     grid-row-gap: 48px;
     grid-column-gap: 40px;
     grid-template-columns: 460px 484px;
-
 }
 
 .place:last-child {
@@ -66,7 +65,7 @@
   .place{
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
-    grid-row-gap: 8%;
+    grid-row-gap: 4%;
     }
 }
 

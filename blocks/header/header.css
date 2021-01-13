@@ -1,13 +1,10 @@
 .header {
-    /*max-width: 1184px;*/
     max-width: calc(100vw - 48px * 2);
-    max-height: 52px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items:  flex-end;
     margin: 28px 48px 56px 48px;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,6 +27,14 @@
         margin: 0 auto;
         margin-top: 16px;
         margin-bottom: 48px;
-        max-height: 42px;
+      /*  max-height: 42px;*/
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .header {
+      max-width: 1184px;
+      margin: 0 auto;
+      margin-bottom: 56px;
     }
 }

@@ -23,9 +23,3 @@
   }
 }
 
-@media screen and (min-width: 1281px) {
-  .intro__title {
-    font-size: 4vw;
-    line-height: 120%;
-  }
-}

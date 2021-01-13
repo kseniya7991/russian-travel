@@ -18,11 +18,3 @@
 }
 
 
-/*elastic layout*/
-@media screen and (min-width: 1281px) {
-  .intro__text{
-     font-size: 1.1vw;
-     max-width: 60vw;
-     min-height: auto;
-    }
-}

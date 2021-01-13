@@ -16,11 +16,3 @@
   }
 }
 
-/*elastic layout*/
-@media screen and (min-width: 1281px) {
-  .intro__lists{
-     font-size: .9vw;
-     max-width: 60vw;
-     min-height: auto;
-    }
-}

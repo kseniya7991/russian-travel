@@ -9,20 +9,13 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
   margin: 0;
+  text-transform: uppercase;
 }
 
 /*elastic layout*/
-@media screen and (min-width: 1281px) {
-  .place__url-heading {
-    font-size: .9vw;
-    line-height: 100%;
-    }
-}
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .place__url-heading{
-    font-size: 2vw;
-    line-height: 100%;
     padding-bottom: 6px;
   }
 }

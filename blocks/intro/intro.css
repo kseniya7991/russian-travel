@@ -1,6 +1,5 @@
 .intro {
     max-width: 690px;
-    /*min-height: 429px;*/
     margin-left: 148px;
     margin-bottom: 92px;
     display: flex;
@@ -38,7 +37,6 @@
 
 @media screen and (min-width: 1281px) {
   .intro{
-     margin-left: calc((100vw - 80vw) / 2);
-     max-width: 80vw;
+    margin-left: calc((100vw - 984px) / 2);
     }
 }

@@ -1,6 +1,5 @@
 .lead {
     max-width: 984px;
-    /*min-height: 1005px;*/
     position: relative;
     margin: 0 148px 92px 148px;
     display: flex;
@@ -40,7 +39,6 @@
 @media screen and (min-width: 1281px) {
     .lead {
         margin: 0 auto;
-        max-width: 80vw;
         margin-bottom: 92px;
     }
 }

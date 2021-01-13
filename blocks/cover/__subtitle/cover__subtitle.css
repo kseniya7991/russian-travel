@@ -20,13 +20,7 @@
 }
 
  /*elastic layout*/
- @media screen and (min-width: 1281px) {
-  .cover__subtitle{
-    font-size: 1.5vw;
-    line-height: 110%;
-    max-width: 80%;
-    }
-}
+
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .cover__subtitle {

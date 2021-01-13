@@ -17,7 +17,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0;
+  opacity: 0.3;
   transition: 0.4s;
   z-index: 0;
 }
@@ -53,31 +53,23 @@
  /*elastic layout*/
  @media screen and (min-width: 1281px) {
   .cover{
-    max-width: 80vw;
+    /*max-width: 80vw;*/
     margin: 0 auto;
     margin-bottom: 92px;
-    min-height: calc(80vw * 0.625);
+    /*min-height: calc(80vw * 0.625);*/
     }
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .cover {
     margin-bottom: 64px;
-    min-height: calc(100vw * 0.625);
-    max-width: 100%;
     }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1025px)  {
-  .cover{
+@media screen and (max-width: 1279px) and (min-width: 1025px),  (min-width: 321px) and (max-width: 767px), (max-width: 1023px) and (min-width: 768px)   {
+  .cover {
     max-width: 100%;
     min-height: calc(100vw * 0.625);
     }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px)  {
-  .cover{
-    max-width: 100%;
-    min-height: calc(100vw * 0.625);
-    }
-}

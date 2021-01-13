@@ -64,13 +64,4 @@
     }
   }
 
-  @media screen and (min-width: 1281px) {
-    .photo-grid{
-        max-width: 80vw;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        
-    }
-  }
-
-  
+ 
