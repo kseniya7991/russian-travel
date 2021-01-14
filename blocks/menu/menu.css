@@ -14,3 +14,10 @@
   }
 }
 
+@media screen and (max-width: 500px) and (min-width: 321px) {
+  .menu{
+    max-width: 80%;
+    flex-wrap: wrap;
+  }
+}
+
