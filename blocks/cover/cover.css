@@ -53,10 +53,8 @@
  /*elastic layout*/
  @media screen and (min-width: 1281px) {
   .cover{
-    /*max-width: 80vw;*/
     margin: 0 auto;
     margin-bottom: 92px;
-    /*min-height: calc(80vw * 0.625);*/
     }
 }
 
